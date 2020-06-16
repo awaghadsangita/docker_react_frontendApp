@@ -6,4 +6,5 @@ before_install:
   - docker build -t myImage -f Dockerfile.dev .
 
 script:
-  - docker run myImage yarn run test -- --coverage
+  - docker run myImage npm run test -- --coverage
+  
