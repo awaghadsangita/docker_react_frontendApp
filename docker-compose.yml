@@ -16,4 +16,4 @@ services:
     volumes:
       - /app/node_modules
       - .:/app  
-    command: ["yarn","run","test"]
+    command: ["npm","run","test"]
